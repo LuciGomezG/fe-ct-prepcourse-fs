@@ -118,10 +118,7 @@ if (num1 <0 || num2 <0 ||num3<0){
 }else if(num1>0 && num1>num2 && num1> num3){
    return "Numero 1 es mayor y positivo";
 }else{
-   return false;
-}
-}
-
+   return
 function esPrimo(num) {
    if (num <= 1) {
       return false;
